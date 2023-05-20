@@ -75,7 +75,7 @@ int main()
 
   float time = 0.f;
   float dt = 0.02f; // time step
-  Eigen::Vector2f phase_explicit(0.8f, 0.f); // height 0.8 and vertical velocity 0.0
+  Eigen::Vector2f phase_implicit(0.8f, 0.f); // height 0.8 and vertical velocity 0.0
   std::vector<Eigen::Vector2f> history_explicit, history_implicit;
 
   while ( !::glfwWindowShouldClose(window) )
